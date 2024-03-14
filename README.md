@@ -1,2 +1,2 @@
-<title> Project Euler </title>
+# Project Euler
 https://projecteuler.net/about
