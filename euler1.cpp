@@ -1,7 +1,5 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
     int sum = 0;
@@ -14,6 +12,6 @@ int main()
         }
     }
 
-    cout << sum;
+    std::cout << sum;
     return 0;
 }

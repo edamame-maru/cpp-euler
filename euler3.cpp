@@ -40,6 +40,6 @@ int main()
 		}
 	}
 	
-	cout << currentMax;
+	std::cout << currentMax;
 	return 0;
 }
