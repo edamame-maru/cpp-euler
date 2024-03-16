@@ -13,7 +13,7 @@ Microsoft:
 
 ### Linux Distributions
 
-https://code.visualstudio.com/docs/cpp/config-linux#_prerequisites:
+Taken from https://code.visualstudio.com/docs/cpp/config-linux#_prerequisites:
 1. Check if GCC is already installed. You can do this with:
 
 ```
@@ -45,7 +45,7 @@ in the output file directory.
 
 ### Windows
 
-Installing MinGW-w64 toolchain (for compilation) on Windows (https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites):
+Installing MinGW-w64 toolchain (for compilation) on Windows (taken from https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites):
 1. You can download the latest installer from the MSYS2 page or use this direct link to the installer.
 
 2. Run the installer and follow the steps of the installation wizard. Note that MSYS2 requires 64 bit Windows 8.1 or newer.
@@ -79,6 +79,21 @@ or
 clang <yourfile.cpp>
 ```
 according to your installed compilier. In this repository, reference files will be compiled into ```.exe``` files for portability on windows. For local testing on other systems, please compile the ```.cpp``` file. **For the best development experience, Arch/Debian Linux or Windows 10/11 is recommended.**
+
+### macOS
+
+Development is not reccomended on macOS, but for people who won't give up:
+
+(taken from https://code.visualstudio.com/docs/cpp/config-clang-mac#_prerequisites)
+
+>Clang might be already installed on your mac. To verify that it is, open a macOS Terminal window and enter the following command:
+'''
+clang --version
+'''
+>If Clang isn't installed, enter the following command to install the command line developer tools, which include Clang:
+'''
+xcode-select --install
+'''
 
 
 ## Editors
