@@ -20,7 +20,7 @@ Installing MinGW-w64 toolchain (for compilation) on Windows (https://code.visual
 
 3. In the wizard, choose your desired Installation Folder. Record this directory for later. In most cases, the recommended directory is acceptable. The same applies when you get to setting the start menu shortcuts step. When complete, ensure the Run MSYS2 now box is checked and select Finish. This will open a MSYS2 terminal window for you.
 
-4. n this terminal, install the MinGW-w64 toolchain by running the following command:
+4. In this terminal, install the MinGW-w64 toolchain by running the following command:
 
 ```
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
@@ -38,7 +38,15 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
   4. Select New and add the MinGW-w64 destination folder you recorded during the installation process to the list. If you used the default settings above, then this will be the path: C:\msys64\ucrt64\bin.
   5. Select OK to save the updated PATH. You will need to reopen any console windows for the new PATH location to be available.
 
-Install a compiler, then translate your code with ```g++ <yourfile.cpp> -o <youroutputfile>``` or ```clang <yourfile.cpp>``` according to your installed compilier. In this repository, reference files will be compiled into ```.exe``` files for portability on windows. For local testing on other systems, please compile the ```.cpp``` file. **For the best development experience, Arch/Debian Linux or Windows 10/11 is recommended.**
+Install a compiler, then translate your code with 
+```
+g++ <yourfile.cpp> -o <youroutputfile>
+```
+or
+```
+clang <yourfile.cpp>
+```
+according to your installed compilier. In this repository, reference files will be compiled into ```.exe``` files for portability on windows. For local testing on other systems, please compile the ```.cpp``` file. **For the best development experience, Arch/Debian Linux or Windows 10/11 is recommended.**
 
 
 ## Editors
