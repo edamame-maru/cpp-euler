@@ -12,9 +12,9 @@ Link to official website: https://projecteuler.net/about
 Microsoft:
 >C++ is a compiled language meaning your program's source code must be translated (compiled) before it can be run on your computer.
 
-###Compilers
+### Windows
 
-Installing MinGW-w64 toolchain (for compilation) on Windows:
+Installing MinGW-w64 toolchain (for compilation) on Windows (https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites):
 >1. You can download the latest installer from the MSYS2 page or use this direct link to the installer.
 >
 >2. Run the installer and follow the steps of the installation wizard. Note that MSYS2 requires 64 bit Windows 8.1 or newer.
@@ -25,11 +25,11 @@ Installing MinGW-w64 toolchain (for compilation) on Windows:
 >
 >```pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain```
 >5. Accept the default number of packages in the toolchain group by pressing Enter.
-
+>
 >6. Enter Y when prompted whether to proceed with the installation.
-
+>
 >7. Add the path to your MinGW-w64 bin folder to the Windows PATH environment variable by using the following steps:
-
+>
 >  1. In the Windows search bar, type Settings to open your Windows Settings.
 >  2. Search for Edit environment variables for your account.
 >  3. In your User variables, select the Path variable and then select Edit.
