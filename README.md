@@ -30,6 +30,19 @@ to update ```apt``` package lists and install the GNU compiler tools and GDB deb
 sudo apt-get install build-essential gdb
 ```
 
+Now the compiler is installed on your system, create a ```.cpp``` file in your faivourite editor with your C++ code and compile with:
+
+```
+g++ <sourceFileName.cpp> -o <outputFileName>
+```
+
+which can be run with
+
+```
+ ./<outputFilename>
+```
+in the output file directory.
+
 ### Windows
 
 Installing MinGW-w64 toolchain (for compilation) on Windows (https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites):
