@@ -11,6 +11,25 @@ Link to official website: https://projecteuler.net/about
 Microsoft:
 >C++ is a compiled language meaning your program's source code must be translated (compiled) before it can be run on your computer.
 
+### Linux Distributions
+
+https://code.visualstudio.com/docs/cpp/config-linux#_prerequisites:
+1. Check if GCC is already installed. You can do this with:
+
+```
+gcc -v
+```
+2. If GCC isn't installed, run the following:
+
+```
+sudo apt-get update
+```
+to update ```apt``` package lists and install the GNU compiler tools and GDB debugger:
+
+```
+sudo apt-get install build-essential gdb
+```
+
 ### Windows
 
 Installing MinGW-w64 toolchain (for compilation) on Windows (https://code.visualstudio.com/docs/cpp/config-mingw#_prerequisites):
