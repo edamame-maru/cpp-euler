@@ -87,16 +87,26 @@ Development is not reccomended on macOS, but for people who won't give up:
 (taken from https://code.visualstudio.com/docs/cpp/config-clang-mac#_prerequisites)
 
 >Clang might be already installed on your mac. To verify that it is, open a macOS Terminal window and enter the following command:
-'''
-clang --version
-'''
+>
+>```
+>clang --version
+>```
 >If Clang isn't installed, enter the following command to install the command line developer tools, which include Clang:
-'''
-xcode-select --install
-'''
-
+>
+>```
+>xcode-select --install
+>```
 
 ## Editors
+
+You can write C++ code in virtually text editor (People have tried it in Microsoft Word!) as long as you have a compiler installed. Some famous editors are:
+
+### Visual Studio Code (https://code.visualstudio.com/) - Windows, Linux, macOS
+### vim (https://www.vim.org/) - Linux(advanced), Windows(graphical)
+### emacs (https://www.gnu.org/software/emacs/) - Linux(advanced), Windows(graphical)
+### Sublime Text (https://www.sublimetext.com/index2) - Windows, Linux, macOS
+### Notepad++ (https://notepad-plus-plus.org/) - Windows
+
 Microsoft (Visual Studio Code):
 >The C/C++ extension doesn't include a C++ compiler or debugger, since VS Code as an editor relies on command-line tools for the development workflow. You need to install these tools or use the tools already installed on your computer.
 
