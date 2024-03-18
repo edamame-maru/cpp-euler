@@ -25,21 +25,21 @@ bool isPrime(long long n)
 int main()
 {
 	long long number = 600851475143;
-	long long currentMax = -1;
+	long long CURRENT_MAX = -1;
 	for (long long i = 2; i * i <= number; i++)
 	{
 		if (number % i == 0)
 		{
 			if (isPrime(i) == true)
 			{
-				if(i > currentMax)
+				if(i > CURRENT_MAX)
 				{
-					currentMax = i;
+					CURRENT_MAX = i;
 				}
 			}
 		}
 	}
 	
-	std::cout << currentMax;
+	std::cout << CURRENT_MAX;
 	return 0;
 }
